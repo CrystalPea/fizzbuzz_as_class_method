@@ -1,2 +1,5 @@
-def fizzbuzz(argument)
+class Integer
+  def fizzbuzz
+    "fizz"
+  end
 end
