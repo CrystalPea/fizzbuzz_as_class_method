@@ -3,6 +3,8 @@ class Integer
   def fizzbuzz
     if self % 15 == 0
       "fizzbuzz"
+    elsif self % 10 == 0
+      "jazz"
     elsif self % 3 == 0
       "fizz"
     elsif self % 5 == 0
