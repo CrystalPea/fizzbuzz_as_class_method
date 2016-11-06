@@ -16,9 +16,13 @@ describe 'fizzbuzz' do
   it 'return "fizzbuzz" when passed multiplication of 15 as an argument' do
     expect(15.fizzbuzz).to eq "fizzbuzz"
   end
-  
+
   it 'return "jazz" when passed multiplication of 10 as an argument' do
     expect(10.fizzbuzz).to eq "jazz"
   end
 
+  it 'return "fizzbuzzjazz" when passed multiplication of 30 as an argument' do
+    expect(30.fizzbuzz).to eq "fizzbuzzjazz"
+  end
+  
 end
